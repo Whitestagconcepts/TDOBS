@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Translated Captions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        #captions-container {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            width: 600px; /* Adjust the width as needed */
+            height: 4.5em; /* 3 lines of text */
+            overflow: hidden;
+            display: flex;
+            align-items: flex-end;
+        }
+        #captions {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="captions-container">
+        <div id="captions"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
